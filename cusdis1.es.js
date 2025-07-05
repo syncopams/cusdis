@@ -2,7 +2,7 @@ window.CUSDIS = {};
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://cusdis.com";
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`;
-  const cssPath = `https://violaine.xyz/s/i2eRgfsMMjLHgHf/download/style1.css`;
+  const cssPath = `https://github.com/syncopams/cusdis/blob/master/style1.css`;
   return `<!DOCTYPE html>
 <html>
   <head>
