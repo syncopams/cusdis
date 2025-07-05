@@ -2,7 +2,7 @@ window.CUSDIS = {};
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://github.com/syncopams/cusdis/blob/master";
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`;
-  const cssPath = `${host}/style1.css`;
+  const cssPath = `${host}/js/style.css`;
   return `<!DOCTYPE html>
 <html>
   <head>
